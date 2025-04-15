@@ -2,10 +2,10 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Harsh Upadhyay - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
@@ -20,59 +20,90 @@
         </nav>
     </header>
     <main>
+
+
         <section id="intro">
+
             <div id="nam">
                 <h2>Hi,</h2>
-                <h2>I'm <span>Harsh</span>,</h2>
+                <h2>I'm <span>Harsh</span></h2>
                 <h2>Web Developer</h2>
+
+                <div class="intro-button">
+                    <a href="./files/HarshUpadhyayResume.pdf" download=""><button class="btn1">Download
+                            Resume</button></a>
+                    <a href="#projects"><button class="btn2">View Projects</button></a>
+                </div>
+
             </div>
+
             <div>
-                <img src="https://cdn.pixabay.com/photo/2024/04/09/03/04/ai-generated-8684869_640.jpg" alt="coding">
+                <img src="https://cdn.pixabay.com/photo/2024/04/09/03/04/ai-generated-8684869_640.jpg" alt="coding"
+                    class="intro-image" />
             </div>
-
-
-
-
         </section>
+
+
         <section id="about">
             <h3>About</h3>
-            <p>Hi, I am Harsh Upadhyay. I am MCA graduate from Amity University. I am a passionate Web Developer and
-                made several projects which shows my skills. I would Like You to have a look at my projects.</p>
-            <button><a href="#Projects">Projects</a></button>
-        </section>
-        <section id="projects">
-            <h3>Projects</h3>
-            <p>Upcoming...</p>
+            <p>
+                Hi, I am Harsh Upadhyay. I am MCA graduate from Amity University. I am
+                a passionate Web Developer and made several projects which shows my
+                skills. I would Like You to have a look at my projects.
+            </p>
 
         </section>
+
+
+        <section id="projects">
+            <h3>Projects</h3>
+            <div class="projects">
+                <div class="weatherApp">
+                    <h4>Weather App</h4>
+
+                    <img src="./images/weatherApp.png" alt="weather App Image" class="weatherApp-image" />
+
+                    <a href="https://harsh-1986.github.io/weatherApp/" target="_blank"><button
+                            class="visit">Visit</button></a>
+                    <p class="details">
+                        It is a weather App built with HTML, CSS and Javascript
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
         <section id="contact">
             <h3>Contacts</h3>
             <div id="container">
                 <div class="info">
-
-                    <p><a href="mailto:upadhyayharsh264@gmail.com">Email Id: upadhyayharsh264@gmail.com</a></p>
+                    <p>
+                        <a href="mailto:upadhyayharsh264@gmail.com">Email Id: upadhyayharsh264@gmail.com</a>
+                    </p>
                     <p><a href="tel:7039867837">Mob No: 7039867837</a></p>
                 </div>
+
                 <div id="form">
                     <form action="">
                         <label for="name">
                             Name:
-                            <input type="text" name="name" id="name">
-
+                            <input type="text" name="name" id="name" required />
                         </label>
                         <label for="email">
                             Email:
-                            <input type="email" name="email" id="email">
+                            <input type="email" name="email" id="email" required />
                         </label>
                         <label for="no">
                             Mob No:
-                            <input type="number" name="num" id="no">
+                            <input type="tel" name="num" id="no" required />
                         </label>
                         <button type="submit">Submit</button>
                     </form>
+
                 </div>
             </div>
         </section>
+
 
         <footer id="footer">
             <p id="copy">© 2025 Harsh Upadhyay. All rights reserved.</p>
