@@ -31,7 +31,7 @@ a {
 }
 
 a:hover {
-    color: rgb(61, 192, 105);
+    color: greenyellow;
 }
 
 ul {
@@ -185,7 +185,7 @@ h4 {
 }
 
 .visit {
-    padding: 0.3rem 0.5rem;
+    padding: 0.6rem 1rem;
     border-radius: 15%;
     border: none;
     background-color: rgb(4, 12, 14);
@@ -195,10 +195,23 @@ h4 {
 }
 
 /*contacts*/
-#contact a {
-    color: black;
-    font-size: 1.5rem;
+.icon {
+    width: 1.5rem;
+    margin-right: 0.2rem;
+}
 
+.info {
+    margin-left: 10rem;
+}
+
+#contact a {
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+#contact a:hover {
+    color: greenyellow;
 }
 
 #contact {
