@@ -103,7 +103,7 @@ h2 {
 /* About */
 
 #about {
-    background-color: rgb(19, 139, 143);
+    background-color: #48A6A7;
     color: white;
     padding: 1rem;
 }
@@ -143,9 +143,12 @@ button:hover {
     background-color: black;
 }
 
+.projects {
+    display: flex;
+    gap: 0.5rem
+}
 
-
-.weatherApp {
+.card {
     border: 2px solid red;
     margin: 1rem;
     max-width: 20rem;
@@ -170,10 +173,15 @@ h4 {
     font-size: 1.2rem;
 }
 
-.weatherApp-image {
+.card-image {
     height: 15rem;
     border-radius: 10%;
+    max-width: 15rem;
 
+}
+
+.cc {
+    width: 13rem
 }
 
 .visit {
@@ -194,7 +202,7 @@ h4 {
 }
 
 #contact {
-    background-color: rgb(19, 139, 143);
+    background-color: #006A71;
 }
 
 #container {
@@ -247,6 +255,11 @@ form button {
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+}
+
+.info a {
+    color: white;
 }
 
 /*footer*/
@@ -301,6 +314,7 @@ form button {
 
     form {
         padding: 1rem;
+        margin-top: 1rem;
     }
 
     input {
